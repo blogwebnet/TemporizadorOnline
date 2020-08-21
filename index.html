@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Temporizador Online</title>
+  <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+  <title>Temporizador Online</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/58d80b791b.js"></script>
+  <!-- Google Fonts -->
+  <!-- Cormorant Garamond -->
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Inconsolata|Libre+Baskerville|Noto+Serif|Open+Sans|Oxygen|PT+Sans" rel="stylesheet">
+  </head>
+<body>
+    <div class="container">
+      <div class="name">Temporizador Online</div>
+      <div class="timerName noselect">
+        <p>Intervalo</p>
+        <p>Tempo de sessão</p>
+      </div>
+      <div class="timerSetupTime noselect">
+        <p>
+          <span id="breakMinus">- </span>
+          <span id="breakMin">5</span>
+          <span id="breakPlus"> +</span>
+        </p>
+        <p>
+          <span id="sessionMinus">- </span>
+          <span id="sessionMin">25</span>
+          <span id="sessionPlus"> +</span>
+        </p>
+      </div>
+      <div class="buttons noselect">
+        <button id="startButton">Iniciar</button>
+        <button id="resetButton">Resetar</button>
+        <!-- add picture for mute, unmute and remove text -->
+        <button id="mute">
+          <i class="fa fa-volume-up def" aria-hidden="true"></i>
+        </button>
+        
+      </div>
+      <div class="timer">
+        <div id="mainName" class="noselect">SESSÃO</div>
+        <div class="mainTimer noselect">
+          <span id="time" class="red">25:00</span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

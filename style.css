@@ -1,0 +1,163 @@
+/*TODO: styling
+        google font
+        material colors
+*/
+body {
+  font-family: font-family: Arial, sans-serif;
+  color: #01579B
+}
+
+div {
+  text-align: center;
+  /*border: 1px solid red;*/
+}
+
+.container {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #FAFAFA;
+  border-radius: 25px;
+  
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.25);
+}
+
+.name {
+  font-size: 2.5em;
+  color: #01579B;
+  border-block-end: 1px solid #006400;
+  max-width: 400px;
+  padding-bottom: 5px;
+  margin: auto;
+  border-bottom:1px solid #555;
+  font-weight: 700;
+}
+
+.timerName p{
+ display: inline;
+ padding: 0 8% 0 8%;
+ font-size: 1.1em;
+}
+
+.timerName {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.timerSetupTime p {
+  display: inline;
+  padding: 0 8% 0 8%;
+  font-size: 2em;
+}
+
+.timerSetupTime {
+  margin-bottom: 20px;
+}
+
+#breakMinus,#breakPlus,#sessionMinus,#sessionPlus {
+  color: #006400;
+  cursor: pointer;
+}
+
+#breakPlus:active{
+  color: #299C29;
+}
+#breakMinus:active{
+  color: #299C29;
+}
+#sessionPlus:active{
+  color: #299C29;
+}
+#sessionMinus:active{
+  color: #299C29;
+}
+
+#breakMin, #sessionMin {
+  display: inline-block;
+  min-width: 45px;
+  max-width: 45px;
+  width: 100%;
+}
+
+.timer {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+#mainName {
+  padding-top: 5px;
+  font-weight: 550;
+  font-size: 1.4em;
+  /*border-top: 1px solid #01579B;*/
+}
+
+.mainTimer {
+  /*margin-top: 10px;*/
+
+  font-size: 3.8em;
+}
+
+a {
+  text-decoration: underline;
+  color: green;
+}
+
+.buttons {
+  margin-bottom: 10px;
+  border-top: 1px solid #01579B;
+  border-bottom: 1px solid #01579B;
+  border-radius: 2px;
+  max-width: 300px;
+  margin: auto;
+  padding: 10px 0 10px 0;
+}
+
+button {
+  padding: 8px 5px 8px 5px;
+  border: none;
+  background-color: #01579B;
+  min-width: 70px;
+  max-width: 70px;
+  border-radius: 2px;
+  color: #E0E0E0;
+}
+
+button:active{
+  background-color: #0288D1;
+
+}
+
+
+#mute{
+  min-width: 27px;
+  max-width: 27px;
+  width: 100%;
+}
+/* disable selectiong */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.red {
+  color: #F44336;
+}
+
+.madeBy{
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: black;
+}
+
+/*remove blue outline*/
+button:focus {outline:0;};
