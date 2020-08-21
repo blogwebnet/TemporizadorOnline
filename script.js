@@ -39,9 +39,9 @@ let timeinterval;
 
 //Audio
 //Gong
-var gong = new Audio('https://calendariodeferiados.com/wp-content/themes/calendario-feriados/sons/Militar_1.mp3');
+var gong = new Audio('https://blogwebnet.github.io/despertador.github.io/Militar_1.mp3');
 //doorbell
-var doorbell = new Audio('https://calendariodeferiados.com/wp-content/themes/calendario-feriados/despertador/wake-up-sound.mp3');
+var doorbell = new Audio('https://blogwebnet.github.io/despertador.github.io/wake-up-sound.mp3');
 
 //----------------COUNTDOWN TIMER----------------------
 
