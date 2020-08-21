@@ -39,9 +39,9 @@ let timeinterval;
 
 //Audio
 //Gong
-var gong = new Audio('https://blogwebnet.github.io/despertador.github.io/Militar_1.mp3');
+var gong = new Audio('https://blogwebnet.github.io/TemporizadorOnline/Militar_1.mp3');
 //doorbell
-var doorbell = new Audio('https://blogwebnet.github.io/despertador.github.io/wake-up-sound.mp3');
+var doorbell = new Audio('https://blogwebnet.github.io/TemporizadorOnline/wake-up-sound.mp3');
 
 //----------------COUNTDOWN TIMER----------------------
 
